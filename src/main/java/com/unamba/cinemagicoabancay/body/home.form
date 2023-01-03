@@ -189,9 +189,6 @@
                 <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="e1" green="e1" red="e1" type="rgb"/>
                 </Property>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="D:\Java\projectos\cineMagicoAbancay\src\main\java\com\unamba\cinemagicoabancay\body\img\Icons\house.png"/>
-                </Property>
                 <Property name="text" type="java.lang.String" value="Inicio"/>
               </Properties>
             </Component>
@@ -233,9 +230,6 @@
                 </Property>
                 <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="e1" green="e1" red="e1" type="rgb"/>
-                </Property>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="D:\Java\projectos\cineMagicoAbancay\src\main\java\com\unamba\cinemagicoabancay\body\img\Icons\booking.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Reservas"/>
               </Properties>
@@ -279,9 +273,6 @@
                 <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="e1" green="e1" red="e1" type="rgb"/>
                 </Property>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="D:\Java\projectos\cineMagicoAbancay\src\main\java\com\unamba\cinemagicoabancay\body\img\Icons\newClient.png"/>
-                </Property>
                 <Property name="text" type="java.lang.String" value="Nuevo Cliente"/>
               </Properties>
             </Component>
@@ -323,9 +314,6 @@
                 </Property>
                 <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="e1" green="e1" red="e1" type="rgb"/>
-                </Property>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="D:\Java\projectos\cineMagicoAbancay\src\main\java\com\unamba\cinemagicoabancay\body\img\Icons\regularClient.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Cliente Regular"/>
               </Properties>
@@ -369,9 +357,6 @@
                 <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="e1" green="e1" red="e1" type="rgb"/>
                 </Property>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="D:\Java\projectos\cineMagicoAbancay\src\main\java\com\unamba\cinemagicoabancay\body\img\Icons\report.png"/>
-                </Property>
                 <Property name="text" type="java.lang.String" value="Reporte"/>
               </Properties>
             </Component>
@@ -413,9 +398,6 @@
                 </Property>
                 <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="e1" green="e1" red="e1" type="rgb"/>
-                </Property>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="D:\Java\projectos\cineMagicoAbancay\src\main\java\com\unamba\cinemagicoabancay\body\img\Icons\promotion.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Promociones"/>
               </Properties>
@@ -459,9 +441,6 @@
                 <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="e1" green="e1" red="e1" type="rgb"/>
                 </Property>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="D:\Java\projectos\cineMagicoAbancay\src\main\java\com\unamba\cinemagicoabancay\body\img\Icons\food_drink.png"/>
-                </Property>
                 <Property name="text" type="java.lang.String" value="Alimentos y bebidas"/>
               </Properties>
             </Component>
@@ -503,9 +482,6 @@
                 </Property>
                 <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="e1" green="e1" red="e1" type="rgb"/>
-                </Property>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="D:\Java\projectos\cineMagicoAbancay\src\main\java\com\unamba\cinemagicoabancay\body\img\Icons\addFood.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Agregar"/>
               </Properties>
@@ -549,11 +525,11 @@
                 <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="e1" green="e1" red="e1" type="rgb"/>
                 </Property>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="D:\Java\projectos\cineMagicoAbancay\src\main\java\com\unamba\cinemagicoabancay\body\img\Icons\inventory.png"/>
-                </Property>
                 <Property name="text" type="java.lang.String" value="Inventario"/>
               </Properties>
+              <Events>
+                <EventHandler event="ancestorAdded" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="jLabelFoodDrink2AncestorAdded"/>
+              </Events>
             </Component>
           </SubComponents>
         </Container>
@@ -593,9 +569,6 @@
                 </Property>
                 <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="e1" green="e1" red="e1" type="rgb"/>
-                </Property>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="D:\Java\projectos\cineMagicoAbancay\src\main\java\com\unamba\cinemagicoabancay\body\img\Icons\addUser.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Agregar usuario"/>
               </Properties>
