@@ -175,7 +175,6 @@ public class home extends javax.swing.JFrame {
 
         jLabelHome.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabelHome.setForeground(new java.awt.Color(225, 225, 225));
-        jLabelHome.setIcon(new javax.swing.ImageIcon("D:\\Java\\projectos\\cineMagicoAbancay\\src\\main\\java\\com\\unamba\\cinemagicoabancay\\body\\img\\Icons\\house.png")); // NOI18N
         jLabelHome.setText("Inicio");
 
         javax.swing.GroupLayout jPanelHomeLayout = new javax.swing.GroupLayout(jPanelHome);
@@ -207,7 +206,6 @@ public class home extends javax.swing.JFrame {
 
         jLabelBooking.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabelBooking.setForeground(new java.awt.Color(225, 225, 225));
-        jLabelBooking.setIcon(new javax.swing.ImageIcon("D:\\Java\\projectos\\cineMagicoAbancay\\src\\main\\java\\com\\unamba\\cinemagicoabancay\\body\\img\\Icons\\booking.png")); // NOI18N
         jLabelBooking.setText("Reservas");
 
         javax.swing.GroupLayout jPanelBookingLayout = new javax.swing.GroupLayout(jPanelBooking);
@@ -239,7 +237,6 @@ public class home extends javax.swing.JFrame {
 
         jLabelBookingPart1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabelBookingPart1.setForeground(new java.awt.Color(225, 225, 225));
-        jLabelBookingPart1.setIcon(new javax.swing.ImageIcon("D:\\Java\\projectos\\cineMagicoAbancay\\src\\main\\java\\com\\unamba\\cinemagicoabancay\\body\\img\\Icons\\newClient.png")); // NOI18N
         jLabelBookingPart1.setText("Nuevo Cliente");
 
         javax.swing.GroupLayout jPanelBookingPart1Layout = new javax.swing.GroupLayout(jPanelBookingPart1);
@@ -271,7 +268,6 @@ public class home extends javax.swing.JFrame {
 
         jLabelBookingPart2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabelBookingPart2.setForeground(new java.awt.Color(225, 225, 225));
-        jLabelBookingPart2.setIcon(new javax.swing.ImageIcon("D:\\Java\\projectos\\cineMagicoAbancay\\src\\main\\java\\com\\unamba\\cinemagicoabancay\\body\\img\\Icons\\regularClient.png")); // NOI18N
         jLabelBookingPart2.setText("Cliente Regular");
 
         javax.swing.GroupLayout jPanelBookingPart2Layout = new javax.swing.GroupLayout(jPanelBookingPart2);
@@ -303,7 +299,6 @@ public class home extends javax.swing.JFrame {
 
         jLabelReport.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabelReport.setForeground(new java.awt.Color(225, 225, 225));
-        jLabelReport.setIcon(new javax.swing.ImageIcon("D:\\Java\\projectos\\cineMagicoAbancay\\src\\main\\java\\com\\unamba\\cinemagicoabancay\\body\\img\\Icons\\report.png")); // NOI18N
         jLabelReport.setText("Reporte");
 
         javax.swing.GroupLayout jPanelReportLayout = new javax.swing.GroupLayout(jPanelReport);
@@ -335,7 +330,6 @@ public class home extends javax.swing.JFrame {
 
         jLabelPromotion.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabelPromotion.setForeground(new java.awt.Color(225, 225, 225));
-        jLabelPromotion.setIcon(new javax.swing.ImageIcon("D:\\Java\\projectos\\cineMagicoAbancay\\src\\main\\java\\com\\unamba\\cinemagicoabancay\\body\\img\\Icons\\promotion.png")); // NOI18N
         jLabelPromotion.setText("Promociones");
 
         javax.swing.GroupLayout jPanelPromotionLayout = new javax.swing.GroupLayout(jPanelPromotion);
@@ -367,7 +361,6 @@ public class home extends javax.swing.JFrame {
 
         jLabelFood_Drink.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabelFood_Drink.setForeground(new java.awt.Color(225, 225, 225));
-        jLabelFood_Drink.setIcon(new javax.swing.ImageIcon("D:\\Java\\projectos\\cineMagicoAbancay\\src\\main\\java\\com\\unamba\\cinemagicoabancay\\body\\img\\Icons\\food_drink.png")); // NOI18N
         jLabelFood_Drink.setText("Alimentos y bebidas");
 
         javax.swing.GroupLayout jPanelFood_DrinkLayout = new javax.swing.GroupLayout(jPanelFood_Drink);
@@ -399,7 +392,6 @@ public class home extends javax.swing.JFrame {
 
         jLabelFood_Drink1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabelFood_Drink1.setForeground(new java.awt.Color(225, 225, 225));
-        jLabelFood_Drink1.setIcon(new javax.swing.ImageIcon("D:\\Java\\projectos\\cineMagicoAbancay\\src\\main\\java\\com\\unamba\\cinemagicoabancay\\body\\img\\Icons\\addFood.png")); // NOI18N
         jLabelFood_Drink1.setText("Agregar");
 
         javax.swing.GroupLayout jPanelFood_Drink1Layout = new javax.swing.GroupLayout(jPanelFood_Drink1);
@@ -431,8 +423,16 @@ public class home extends javax.swing.JFrame {
 
         jLabelFoodDrink2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabelFoodDrink2.setForeground(new java.awt.Color(225, 225, 225));
-        jLabelFoodDrink2.setIcon(new javax.swing.ImageIcon("D:\\Java\\projectos\\cineMagicoAbancay\\src\\main\\java\\com\\unamba\\cinemagicoabancay\\body\\img\\Icons\\inventory.png")); // NOI18N
         jLabelFoodDrink2.setText("Inventario");
+        jLabelFoodDrink2.addAncestorListener(new javax.swing.event.AncestorListener() {
+            public void ancestorAdded(javax.swing.event.AncestorEvent evt) {
+                jLabelFoodDrink2AncestorAdded(evt);
+            }
+            public void ancestorMoved(javax.swing.event.AncestorEvent evt) {
+            }
+            public void ancestorRemoved(javax.swing.event.AncestorEvent evt) {
+            }
+        });
 
         javax.swing.GroupLayout jPanelFood_Drink2Layout = new javax.swing.GroupLayout(jPanelFood_Drink2);
         jPanelFood_Drink2.setLayout(jPanelFood_Drink2Layout);
@@ -463,7 +463,6 @@ public class home extends javax.swing.JFrame {
 
         jLabelAddUser.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabelAddUser.setForeground(new java.awt.Color(225, 225, 225));
-        jLabelAddUser.setIcon(new javax.swing.ImageIcon("D:\\Java\\projectos\\cineMagicoAbancay\\src\\main\\java\\com\\unamba\\cinemagicoabancay\\body\\img\\Icons\\addUser.png")); // NOI18N
         jLabelAddUser.setText("Agregar usuario");
 
         javax.swing.GroupLayout jPanelAddUserLayout = new javax.swing.GroupLayout(jPanelAddUser);
@@ -1326,10 +1325,13 @@ public class home extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_jPanelAddUserMouseExited
 
+    private void jLabelFoodDrink2AncestorAdded(javax.swing.event.AncestorEvent evt) {//GEN-FIRST:event_jLabelFoodDrink2AncestorAdded
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jLabelFoodDrink2AncestorAdded
+
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel jLabelAddUser;
     private javax.swing.JLabel jLabelBooking;
-    private javax.swing.JLabel jLabelBooking1;
     private javax.swing.JLabel jLabelBookingPart1;
     private javax.swing.JLabel jLabelBookingPart2;
     private javax.swing.JLabel jLabelClose;
@@ -1350,11 +1352,8 @@ public class home extends javax.swing.JFrame {
     private javax.swing.JLabel jLabelTitle1;
     private javax.swing.JLabel jLabelTitle2;
     private javax.swing.JLabel jLabelUser;
-    private javax.swing.JPanel jPanel2;
-    private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanelAddUser;
     private javax.swing.JPanel jPanelBooking;
-    private javax.swing.JPanel jPanelBooking1;
     private javax.swing.JPanel jPanelBookingPart1;
     private javax.swing.JPanel jPanelBookingPart2;
     private javax.swing.JPanel jPanelElementsWindows;

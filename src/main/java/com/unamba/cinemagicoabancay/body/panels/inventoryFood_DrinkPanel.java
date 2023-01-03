@@ -28,6 +28,8 @@ public class inventoryFood_DrinkPanel extends javax.swing.JPanel {
 
         jLabel1 = new javax.swing.JLabel();
 
+        setBackground(new java.awt.Color(0, 153, 153));
+
         jLabel1.setText("Invetario");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
@@ -35,16 +37,16 @@ public class inventoryFood_DrinkPanel extends javax.swing.JPanel {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(276, 276, 276)
+                .addGap(63, 63, 63)
                 .addComponent(jLabel1)
-                .addContainerGap(414, Short.MAX_VALUE))
+                .addContainerGap(627, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(148, 148, 148)
+                .addGap(42, 42, 42)
                 .addComponent(jLabel1)
-                .addContainerGap(245, Short.MAX_VALUE))
+                .addContainerGap(351, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
